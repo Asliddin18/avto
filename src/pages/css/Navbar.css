@@ -38,7 +38,7 @@
     display: none;
 }
 .modalMenu {
-    width: 100%;
+    width: 100% !important;
     height: 100vh;
     background-color: #0f141e;
     position: fixed;
@@ -47,6 +47,10 @@
     align-items: start;
     flex-direction: column;
     padding-top: 50px;
+    z-index: 99;
+}
+.db .modalMenu {
+    display: block;
 }
 .close_btn {
     color: #ff6505;

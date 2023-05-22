@@ -981,6 +981,58 @@
         ],
         "async": false
       }
+    },
+    "(app-client)/./src/pages/js/Navbar.js": {
+      "*": {
+        "id": "(sc_client)/./src/pages/js/Navbar.js",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/pages/js/Navbar.js",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/pages/js/Navbar.js",
+        "name": "default",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/pages/js/Popular.js": {
+      "*": {
+        "id": "(sc_client)/./src/pages/js/Popular.js",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/pages/js/Popular.js",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/pages/js/Popular.js",
+        "name": "default",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
     }
   },
   "edgeSSRModuleMapping": {},
@@ -2721,7 +2773,28 @@
       ],
       "async": false
     },
+    "C:\\Users\\Alfatech.uz\\Documents\\GitHubTiny\\avto\\node_modules\\swiper\\modules\\navigation\\navigation.min.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/page.css"
+      ]
+    },
+    "C:\\Users\\Alfatech.uz\\Documents\\GitHubTiny\\avto\\node_modules\\swiper\\swiper.min.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/page.css"
+      ]
+    },
     "C:\\Users\\Alfatech.uz\\Documents\\GitHubTiny\\avto\\src\\pages\\css\\Featured.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/page.css"
+      ]
+    },
+    "C:\\Users\\Alfatech.uz\\Documents\\GitHubTiny\\avto\\src\\pages\\css\\Footer.css#": {
       "id": "null",
       "name": "default",
       "chunks": [
@@ -3128,6 +3201,54 @@
     "C:\\Users\\Alfatech.uz\\Documents\\GitHubTiny\\avto\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#value": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "value",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Alfatech.uz\\Documents\\GitHubTiny\\avto\\src\\pages\\js\\Navbar.js": {
+      "id": "(app-client)/./src/pages/js/Navbar.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Alfatech.uz\\Documents\\GitHubTiny\\avto\\src\\pages\\js\\Navbar.js#": {
+      "id": "(app-client)/./src/pages/js/Navbar.js",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Alfatech.uz\\Documents\\GitHubTiny\\avto\\src\\pages\\js\\Navbar.js#default": {
+      "id": "(app-client)/./src/pages/js/Navbar.js",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Alfatech.uz\\Documents\\GitHubTiny\\avto\\src\\pages\\js\\Popular.js": {
+      "id": "(app-client)/./src/pages/js/Popular.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Alfatech.uz\\Documents\\GitHubTiny\\avto\\src\\pages\\js\\Popular.js#": {
+      "id": "(app-client)/./src/pages/js/Popular.js",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Alfatech.uz\\Documents\\GitHubTiny\\avto\\src\\pages\\js\\Popular.js#default": {
+      "id": "(app-client)/./src/pages/js/Popular.js",
+      "name": "default",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
