@@ -1,0 +1,37 @@
+.popular {
+    width: 100%;
+    background-color: #eff3fa;
+    padding: 0 10%;
+    padding-top: 5%;
+}
+.pop_btns {
+    display: flex;
+}
+.popular_top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.popular_btn {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 50px;
+    background-color: #fff;
+    color: #2c2c2c;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+.popular_btn:hover {
+    border: 1px solid #ff6505;
+    background-color: rgba(255, 101, 5, .1)
+}
+.popular_btn:focus {
+    border: 1px solid #ff6505;
+    background-color: rgba(255, 98, 0, 0.1);
+    color: #ff6505;
+}

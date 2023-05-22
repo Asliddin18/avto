@@ -1,0 +1,518 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[3]!./src/pages/css/Navbar.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************/
+.navbar {
+    width: 100%;
+    height: auto;
+    padding: 10px 2%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar_left {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar_right {
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.loginIn {
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #fff;
+    padding-right: 40px;
+}
+.user_icon {
+    color: #ff6505;
+    margin-right: 8px;
+    font-size: 20px;
+}
+.menuLeftIcon, 
+.usersIcon {
+    color: #ff6505;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+.modalMenu {
+    width: 100%;
+    height: 100vh;
+    background-color: #0f141e;
+    position: fixed;
+    top: 0; left: 0;
+    display: none;
+    align-items: start;
+    flex-direction: column;
+    padding-top: 50px;
+}
+.close_btn {
+    color: #ff6505;
+    cursor: pointer;
+    font-size: 30px;
+    position: absolute;
+    right: 20px; top: 20px;
+}
+@media (max-width: 1200px) {
+    .navbar_left {
+        width: 70%;
+    }
+}
+
+@media (max-width: 900px) {
+    .navbar_left .a_fff,
+    .navbar_right {
+        width: auto;
+        display: none;
+    }
+    .navbar_left {
+        width: auto;
+    }
+    .menuLeftIcon, 
+    .usersIcon {
+        display: flex;
+    }
+    .modalMenu {
+        width: 50%;
+        display: none;
+    }
+    .a_box {
+        width: 100%;
+        margin-top: 20px;
+        font-size: 20px;
+        padding-bottom: 20px;
+        border-bottom: 0.5px solid #999;
+        transition: .2s;
+    }
+    .a_box:hover .a_mobile {
+        color: #ff6505;
+    }
+    .a_mobile {
+        padding-left: 60px;
+    }
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[3]!./src/pages/css/Home.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************/
+.HomeHeader {
+    width: 100%;
+    height: 80vh;
+    background-image: url(/_next/static/media/bg.caded6a6.jpg);
+    background-repeat: no-repeat;
+}
+.headerBody1 {
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+}
+.headerBody > h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+}
+.headerBody > h1 > span {
+    color: #ff6505
+}
+.header_box {
+    display: flex;
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.headerSelect {
+    width: 200px;
+    height: 50px;
+    outline: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0 10px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+.headerSelect:focus {
+    border: 1px solid #ff6505;
+}
+.header_btn {
+    font-size: 20px;
+}
+
+
+
+@media (max-width: 900px) {
+    .headerBody1 {
+        height: auto;
+        padding: 0 5%;
+        padding-top: 10%;
+    }
+    .headerBody {
+        width: 60%;
+        min-width: 300px;
+    }
+    .header_box {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .headerSelect {
+        width: 100%;
+        margin-top: 15px;
+        min-width: 250px;
+    }
+    .header_btn {
+        width: 100%;
+        height: 40px;
+        margin-top: 10px;
+    }
+    .headerBody > h1 {
+        font-size: 32px;
+    }
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[3]!./src/pages/css/Featured.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************/
+.featured {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+.featured_info {
+    font-size: 26px;
+    font-weight: 400;
+    color: #ff6505;
+}
+.featured_title {
+    font-size: 2.5vw;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.featured_body {
+    width: 100%;
+    display: flex;
+}
+.featured_left {
+    width: 48%;
+    height: 40vw;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-right: 12px;
+}
+.featured_left:hover .featured_img {
+    transform: scale(1.1);
+}
+.featured_right {
+    width: 52%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.featured_img {
+    width: 100%;
+    height: 80%;
+    transition: .8s;
+}
+.featured_box {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.featured_bottom {
+    width: 100%;
+    background-color: #222732;
+    position: absolute;
+    bottom: 0; left: 0;
+    color: #fff;
+    padding: 30px;
+}
+.featured_name {
+    font-size: 22px;
+    border-bottom: .5px solid #999;
+    padding-bottom: 20px;
+}
+.feat_price {
+    font-size: 30px;
+    margin-left: 10%;
+}
+.featured_box > p {
+    opacity: .5;
+}
+.feat_year {
+    background-color: #ff6505;
+    opacity: 1 !important;
+    padding: 2px 6px;
+    border-radius: 5px;
+}
+.feat_card {
+    width: 46%;
+    position: relative;
+    cursor: pointer;
+    bottom: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 12px;
+}
+.feat_card:nth-child(3),
+.feat_card:nth-child(4) {
+    margin-top: 10px;
+}
+.featCard_bottom {
+    width: 100%;
+    background-color: #222732;
+    position: absolute;
+    bottom: 0; left: 0;
+    color: #fff;
+    padding: 10px 20px;
+}
+.featCard_box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    border-top: 1px solid #ccc;
+    padding-top: 18px;
+    padding-bottom: 10px;
+}
+.featCard_box > p {
+    color: #fff;
+    opacity: .5;
+    margin-right: 30px;
+}
+.featCard_name {
+    font-weight: 400;
+    font-size: 18px;
+}
+.featCard_price {
+    margin-top: 5px;
+    font-size: 20px;
+}
+.featCard_year {
+    background-color: #ff6505;
+    padding: 2px 8px;
+    border-radius: 5px;
+    opacity: 1 !important;
+}
+.feat_card:hover .featured_img {
+    transform: scale(1.1);
+}
+.feat_card > .featured_img {
+    height: 70%;
+}
+.mobileFeat_card {
+    display: none;
+}
+.feat_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-right: 25px;
+}
+.feat_btn {
+    font-weight: 400;
+    font-size: 18px !important;
+    padding: 10px !important;
+}
+.feat_left {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.feat_left > p {
+    color: #99a1b2;
+}
+.feat_tit {
+    display: none;
+    color: #99a1b2;
+}
+
+@media (max-width: 1660px) {
+    .featCard_bottom > h3 {
+        font-size: 15px;
+    }
+    .featCard_price {
+        font-size: 18px;
+    }
+    .featCard_box > p {
+        font-size: 15px;
+    }
+    .featCard_bottom {
+        padding: 5px 10px;
+    }
+}   
+
+@media (max-width: 1460px) {
+    .featured {
+        width: 90%;
+    }
+    .featured_left {
+        height: 50vw;
+    }
+    .featured_right {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .feat_card {
+        width: 90%;
+    }
+    .featured_box > p {
+        font-size: 13px;
+    }
+    .feat_price {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .featCard_price {
+        font-size: 16px;
+    }
+    .featCard_name {
+        font-size: 14px;
+    }
+    .featCard_box > p {
+        font-size: 12px;
+        margin: 0;
+    }
+    .featCard_name {
+        width: 100%;
+        height: 20px;
+        overflow: hidden;
+    }
+    .featCard_box {
+        padding-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 991px) {
+    .featured_left,
+    .featured_right {
+        display: none;
+    }
+    .mobileFeat_card {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .featured_info {
+        text-align: center;
+    }
+    .featured_title {
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 30px;
+    }
+    .feat_card {
+        margin: 0 auto;
+        width: 45%;
+        height: 40vw;
+        min-width: 250px;
+        margin-top: 20px;
+    }
+    .feat_card > .featured_img {
+        height: 80%;
+    }
+}
+@media (max-width: 800px) {
+    .feat_card > .featured_img {
+        height: 69%;
+    }
+}
+@media (max-width: 580px) {
+    .feat_card {
+        width: 100%;
+        height: 330px;
+    }
+    .featured_img {
+        height: auto;
+        object-fit: cover;
+    }
+    .featCard_name {
+        font-size: 18px;
+    }
+    .featCard_box {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .featCard_box > p {
+        margin-right: 20px;
+    }
+    .feat_bottom {
+        flex-direction: column-reverse;
+        margin: 0;
+        margin-top: 20px;
+    }
+    .feat_btn {
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .feat_left {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 10px;
+    }
+    .feat_tit {
+        display: flex;
+    }
+    .feat_left p {
+        display: none;
+    }
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[3]!./src/pages/css/Popular.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************/
+.popular {
+    width: 100%;
+    background-color: #eff3fa;
+    padding: 0 10%;
+    padding-top: 5%;
+}
+.pop_btns {
+    display: flex;
+}
+.popular_top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.popular_btn {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 50px;
+    background-color: #fff;
+    color: #2c2c2c;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+.popular_btn:hover {
+    border: 1px solid #ff6505;
+    background-color: rgba(255, 101, 5, .1)
+}
+.popular_btn:focus {
+    border: 1px solid #ff6505;
+    background-color: rgba(255, 98, 0, 0.1);
+    color: #ff6505;
+}
