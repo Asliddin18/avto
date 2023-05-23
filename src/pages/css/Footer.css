@@ -145,3 +145,14 @@
    padding-bottom: 5px;
   }
 }
+@media (max-width: 600px) {
+  .footer_bottom {
+    flex-direction: column;
+  }
+  .feat_left {
+    margin-top: 20px;
+  }
+  .privacy {
+    font-size: 14px;
+  }
+}

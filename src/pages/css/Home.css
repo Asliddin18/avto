@@ -24,32 +24,25 @@
 
 .header_box {
     display: flex;
+    align-items: center;
     background-color: #fff;
     padding: 20px;
     margin-top: 30px;
     border-radius: 10px;
 }
 
-.headerSelect {
-    width: 200px;
-    height: 50px;
-    outline: none;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 0 10px;
-    margin: 0 20px;
-    cursor: pointer;
-}
-
 .headerSelect:focus {
-    border: 1px solid #ff6505;
+    border: 1px solid #ff6505 !important;
 }
 
 .header_btn {
     font-size: 20px;
+    height: 55px;
 }
 
+.headerSelect option:hover option {
+    color: #ff6505;
+}
 .kotta {
     width: 80%;
     margin-left: 10%;
@@ -74,9 +67,11 @@
     text-align: center;
     margin-top: 30px;
 }
-.bir > h2 {
+
+.bir>h2 {
     margin-top: 30px;
 }
+
 .bxs-balloon {
     font-size: 70px;
     color: red;
@@ -126,8 +121,11 @@
         margin-top: 10px;
     }
 
-    .headerBody > h1 {
+    .headerBody>h1 {
         font-size: 32px;
+    }
+    #inp2 {
+        width: 100% !important;
     }
 }
 
@@ -136,6 +134,7 @@
     .kotta h1 {
         font-size: 30px;
     }
+
     .bir {
         width: 100%;
     }

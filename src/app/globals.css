@@ -42,55 +42,6 @@ a {
 * {
     box-sizing: border-box;
 }
-
-.Btnbody {
-    width: auto;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--bg-color);
-}
-
-button {
-    position: relative;
-    padding: 5px 15px;
-    border: none;
-    background: none;
-    cursor: pointer;
-    color: var(--text-color);
-    background-color: var(--btn-color);
-    border-radius: 4px;
-    z-index: 0;
-    overflow: hidden;
-    --c: #229091;
-    --_g: linear-gradient(var(--c) 0 0) no-repeat;
-    background:
-        var(--_g) calc(var(--_p, 0%) - 100%) 0%,
-        var(--_g) calc(200% - var(--_p, 0%)) 0%,
-        var(--_g) calc(var(--_p, 0%) - 100%) 100%,
-        var(--_g) calc(200% - var(--_p, 0%)) 100%;
-    background-size: 50.5% calc(var(--_p, 0%)/2 + .5%);
-    outline-offset: .1em;
-    transition: background-size .4s, background-position 0s .4s;
-}
-
-button:hover {
-    --_p: 100%;
-    transition: background-position .4s, background-size 0s;
-}
-
-button:active {
-    box-shadow: 0 0 9e9q inset #0009;
-    background-color: var(--c);
-    color: #fff;
-}
-
-button:focus {
-    outline-color: transparent;
-    box-shadow: var(--btn-color) 2px 2px 22px;
-}
-
 /* bubbles */
 button::before {
     content: '';

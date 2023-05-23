@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import Navbar from './Navbar'
 import Image from 'next/image'
@@ -5,11 +6,30 @@ import '../css/Home.css'
 import { FiSearch } from 'react-icons/fi'
 import Featured from './Featured'
 import Popular from './Popular'
-import { WiDayStormShowers } from "react-icons/wi"
+import { WiDayStormShowers } from 'react-icons/wi'
 import Team from './Team'
 import Footer from './Footer'
+import InputLabel from '@mui/material/InputLabel'
+import MenuItem from '@mui/material/MenuItem'
+import FormControl from '@mui/material/FormControl'
+import Select from '@mui/material/Select'
+
+function getStyles (name, personName, theme) {
+  return {
+    fontWeight:
+      personName.indexOf(name) === -1
+        ? theme.typography.fontWeightRegular
+        : theme.typography.fontWeightMedium
+  }
+}
 
 export default function Home () {
+  const [age, setAge] = React.useState('')
+
+  const handleChange = event => {
+    setAge(event.target.value)
+  }
+
   return (
     <div>
       <div className='HomeHeader'>
@@ -20,27 +40,57 @@ export default function Home () {
               Find Your <span>Perfect</span> Car
             </h1>
             <div className='header_box'>
-              <select className='headerSelect'>
-                <option value='ALL'>All Models</option>
-                <option value='Mers'>Mers</option>
-                <option value='BMW'>BMW</option>
-                <option value='Tesla'>Tesla</option>
-                <option value='Audi'>Audi</option>
-              </select>
-              <select className='headerSelect'>
-                <option value='ALL'>All Models</option>
-                <option value='Mers'>Mers</option>
-                <option value='BMW'>BMW</option>
-                <option value='Tesla'>Tesla</option>
-                <option value='Audi'>Audi</option>
-              </select>
-              <select className='headerSelect'>
-                <option value='ALL'>All Models</option>
-                <option value='Mers'>Mers</option>
-                <option value='BMW'>BMW</option>
-                <option value='Tesla'>Tesla</option>
-                <option value='Audi'>Audi</option>
-              </select>
+              <FormControl id='inp2' sx={{ m: 1, minWidth: 200 }}>
+                <InputLabel id='demo-select-small-label'>Age</InputLabel>
+                <Select
+                  labelId='demo-select-small-label'
+                  id='demo-select-small'
+                  value={age}
+                  label='Age'
+                  onChange={handleChange}
+                >
+                  <MenuItem value=''>
+                    <em>None</em>
+                  </MenuItem>
+                  <MenuItem value={10}>Ten</MenuItem>
+                  <MenuItem value={20}>Twenty</MenuItem>
+                  <MenuItem value={30}>Thirty</MenuItem>
+                </Select>
+              </FormControl>
+              <FormControl id='inp2' sx={{ m: 1, minWidth: 200 }}>
+                <InputLabel id='demo-select-small-label'>Age</InputLabel>
+                <Select
+                  labelId='demo-select-small-label'
+                  id='demo-select-small'
+                  value={age}
+                  label='Age'
+                  onChange={handleChange}
+                >
+                  <MenuItem value=''>
+                    <em>None</em>
+                  </MenuItem>
+                  <MenuItem value={10}>Ten</MenuItem>
+                  <MenuItem value={20}>Twenty</MenuItem>
+                  <MenuItem value={30}>Thirty</MenuItem>
+                </Select>
+              </FormControl>
+              <FormControl id='inp2' sx={{ m: 1, minWidth: 200 }}>
+                <InputLabel id='demo-select-small-label'>Age</InputLabel>
+                <Select
+                  labelId='demo-select-small-label'
+                  id='demo-select-small'
+                  value={age}
+                  label='Age'
+                  onChange={handleChange}
+                >
+                  <MenuItem value=''>
+                    <em>None</em>
+                  </MenuItem>
+                  <MenuItem value={10}>Ten</MenuItem>
+                  <MenuItem value={20}>Twenty</MenuItem>
+                  <MenuItem value={30}>Thirty</MenuItem>
+                </Select>
+              </FormControl>
               <button className='Btnbody header_btn'>
                 <FiSearch />
               </button>
